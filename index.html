@@ -1,2 +1,17 @@
-Shaker
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shaker</title>
+  </head>
+  <body>
+    <p id="location"></p>
+
+    <script src="burger.js">
+      navigator.geolocation.getCurrentPosition(function(pos) {
+        document.getElementById("location").innerHTML = "Go to " + closestBurgerTo(pos).name + "!";
+      });
+    </script>
+  </body>
+</html>
 
