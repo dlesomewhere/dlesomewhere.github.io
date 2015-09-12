@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>Shaker</title>
+    <script src="burger.js" type="text/javascript"></script>
   </head>
   <body>
-    <p id="location"></p>
+    <p id="location">Locating closest burger.  Fasten your seatbelt.</p>
 
-    <script src="burger.js">
+    <script type="text/javascript">
       navigator.geolocation.getCurrentPosition(function(pos) {
         document.getElementById("location").innerHTML = "Go to " + closestBurgerTo(pos).name + "!";
       });
