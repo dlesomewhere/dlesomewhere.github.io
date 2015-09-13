@@ -1,6 +1,6 @@
 function closestBurgerTo(myPosition) {
   var burgers = [
-    { name: "Bunsen",            latitude: 53.3478,  longitude: 6.2597},
+    { name: "Bunsen",            latitude: 53.3478,  longitude: -6.2597},
     { name: "Burger Joint",      latitude: 40.7641,  longitude: -73.9784},
     { name: "Inglewood",         latitude: 46.2000,  longitude: 6.1500},
     { name: "Rockwell and Sons", latitude: -37.8005, longitude: 144.9842}
