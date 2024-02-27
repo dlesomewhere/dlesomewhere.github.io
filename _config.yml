@@ -12,6 +12,10 @@ header:
       slug: /
     - name: On The Day
       slug: /on_the_day
+    - name: FAQ
+      slug: /faq
+    - name: RSVP
+      slug: /rsvp
 
 footer:
   show_powered_by: false
