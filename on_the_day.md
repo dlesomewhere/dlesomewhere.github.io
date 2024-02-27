@@ -3,11 +3,16 @@ layout: events
 title: On The Day
 slug: /on_the_day
 items:
-  - title: My Interest 1
-    image:
-      src: /assets/img/work/water.png
-      alt: water
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  - title: Ceremony
+    time: "14:00"
+    description: Ceremony happening at 14:00
+  - title: Something else
+    time: "Later"
+    description: Something happening later. Some details about that.
 ---
 
-Some content
+<p>
+Please arrive at blah for blah. Here are some details of times things will happen:
+</p>
+<br />
+

@@ -8,8 +8,6 @@ og_image: /assets/img/main-image.jpg
 
 header:
   pages:
-    - name: Home
-      slug: /
     - name: On The Day
       slug: /on_the_day
     - name: FAQ
