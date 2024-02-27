@@ -3,8 +3,7 @@
 
 title: Sybil & Dave
 description: Sybil & Dave Wedding Site
-baseurl: "/bay" # the subpath of the site
-url: "https://dlesomewhere.github.io/"
+url: "https://dlesomewhere.github.io"
 og_image: /assets/img/main-image.jpg
 
 header:
