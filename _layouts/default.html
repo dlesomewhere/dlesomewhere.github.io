@@ -8,7 +8,15 @@
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
+
+        <img
+          src="{{ page.picture.src | absolute_url }}"
+          alt="{{ page.picture.alt }}"
+        />
+
       </div>
+
+
     </div>
 
     {% include footer.html %}

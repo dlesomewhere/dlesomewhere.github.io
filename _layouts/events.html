@@ -7,23 +7,22 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="work">
+        <div class="on-the-day">
           <h1 class="page-heading">{{ page.title }}</h1>
+
           {{ content }}
 
+          <h2 class="page-sub-heading">Schedule</h2>
+
           {% for item in page.items %}
-          <div class="work-item">
-            <span class="work-text">
-              <strong>{{ item.time }}</strong>
-              &mdash;
-
-              {{ item.title }}
-              &mdash;
-
-              {{ item.description }}
-            </span>
+          <div class="faq">
+            <div class="faq-item">
+              <strong>{{ item.title }}</strong> &mdash; {{ item.time }}
+              <p>{{ item.description }}</p>
+            </div>
           </div>
           {% endfor %}
+
         </div>
       </div>
     </div>

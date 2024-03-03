@@ -12,15 +12,9 @@ header:
       slug: /on_the_day
     - name: FAQ
       slug: /faq
-    - name: RSVP
-      slug: /rsvp
 
 footer:
   show_powered_by: false
-  contact:
-    - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
 
 # Build settings
 markdown: kramdown
