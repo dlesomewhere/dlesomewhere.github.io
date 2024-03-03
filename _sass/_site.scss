@@ -1,7 +1,6 @@
-.profile-pic {
+.picture-right {
   float: right;
-  width: 202px;
-  border: #ccc 0px solid;
+  width: 300px;
   margin-left: 20px;
 
   @include media-query($on-mobile) {
@@ -9,6 +8,15 @@
     margin-bottom: 20px;
     margin-left: 0px;
   }
+}
+
+.page-picture {
+  max-width: 100%;
+  vertical-align: middle;
+  height: auto;
+  float: bottom;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .footer-col {

@@ -7,19 +7,24 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="work">
-          <h1 class="page-heading">{{ page.title }}</h1>
-          {{ content }}
+        <h1 class="page-heading">{{ page.title }}</h1>
 
+        {{ content }}
+
+        <div class="faq">
           {% for item in page.items %}
-            <span class="work-text">
+            <div class="faq-item">
               <strong>{{ item.question }}</strong>
-              &mdash;
-              {{ item.answer }}
-            </span>
-          </div>
+              <p>{{ item.answer }}</p>
+            </div>
           {% endfor %}
         </div>
+
+        <img
+          src="{{ page.picture.src | absolute_url }}"
+          alt="{{ page.picture.alt }}"
+        />
+
       </div>
     </div>
 
