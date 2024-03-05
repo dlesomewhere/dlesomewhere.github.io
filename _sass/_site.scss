@@ -11,12 +11,18 @@
 }
 
 .page-picture {
-  max-width: 100%;
-  vertical-align: middle;
-  height: auto;
-  float: bottom;
-  margin-left: 20px;
-  margin-right: 20px;
+  float: top;
+  width: 400px;
+  
+  @include media-query($on-mobile) {
+    float: none;
+    margin-bottom: 20px;
+  }
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
 }
 
 .footer-col {

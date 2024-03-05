@@ -13,10 +13,13 @@
 
         <br>
 
-        <img
-          src="{{ page.picture.src | absolute_url }}"
-          alt="{{ page.picture.alt }}"
-        />
+        <div class="header-image">
+          <img
+            src="{{ page.picture.src | absolute_url }}"
+            alt="{{ page.picture.alt }}"
+            class="page-picture"
+          />
+        </div>
 
         <div class="faq">
           {% for item in page.items %}
