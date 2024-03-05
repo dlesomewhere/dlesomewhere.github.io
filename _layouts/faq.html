@@ -11,6 +11,13 @@
 
         {{ content }}
 
+        <br>
+
+        <img
+          src="{{ page.picture.src | absolute_url }}"
+          alt="{{ page.picture.alt }}"
+        />
+
         <div class="faq">
           {% for item in page.items %}
             <div class="faq-item">
@@ -19,11 +26,6 @@
             </div>
           {% endfor %}
         </div>
-
-        <img
-          src="{{ page.picture.src | absolute_url }}"
-          alt="{{ page.picture.alt }}"
-        />
 
       </div>
     </div>

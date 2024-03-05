@@ -3,7 +3,7 @@ layout: faq
 title: FAQ
 slug: /faq
 picture:
-  src: /assets/img/phone.jpg
+  src: /assets/img/phone_cropped.jpg
   alt: Sybil and Dave on the phone. Hold please.
 items:
   - question: When should I RSVP by?
@@ -17,7 +17,8 @@ items:
   - question: Do you have a gift list?
     answer: Nope! We just want the delight of your company - no gifts required. We have a fairly small flat and Sybil has mild hoarding tendencies so please don’t give us more things! If you’re absolutely desperate to give a gift, a small donation to our honeymoon would be lovely, but in no way expected or required!
   - question: How do I get home?
-    answer: There are a few hotels in nearby North Berwick - although these do tend to fill up early so do book in plenty of time!
+    answer: There are a few hotels in nearby North Berwick - although these do tend to fill up early so do book in plenty of time! We’re Looking into arranging a bus from Whitekirk Hill to Edinburgh, via North Berwick - let us know if you’d be interested in a seat - TBC!
 ---
-
-Your call is very important to us. Give us a shout if you have any questions we haven’t answered below:
+<p>
+Your call is very important to us. Give us a shout if you have any questions we haven’t answered below!
+<p>
