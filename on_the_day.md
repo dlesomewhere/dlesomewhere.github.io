@@ -26,7 +26,7 @@ items:
     time: "20:00"
     description: 
 
-  - title: Cherio!
+  - title: Cheerio!
     time: "00:00 - 01:00"
     description:
 ---
