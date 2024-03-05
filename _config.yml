@@ -2,9 +2,9 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 title: Sybil & Dave
-description: Sybil & Dave Wedding Site
+description: Sybil & Dave Wedding
 url: "https://www.weirgettingmarried.co.uk"
-og_image: /assets/img/main-image.jpg
+og_image: /assets/img/color_factory.jpg
 
 header:
   pages:
