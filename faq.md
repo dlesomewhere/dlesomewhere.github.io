@@ -7,7 +7,7 @@ picture:
   alt: Sybil and Dave on the phone. Hold please.
 items:
   - question: When should I RSVP by?
-    answer: April 12th please!
+    answer: End of March please!
   - question: How do I get there?
     answer: There’s a big car park at Whitekirk Hill if you’re driving - otherwise get a train or bus to North Berwick, then taxi or the 120 bus (please note this is quite sporadic!) up to Whitekirk Hill.
   - question: Are kids welcome?
